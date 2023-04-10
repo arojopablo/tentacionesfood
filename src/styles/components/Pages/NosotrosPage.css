@@ -1,0 +1,102 @@
+.bg-gris3 {
+    background-color: #F5F6FA;
+  }
+  
+  .nosotrosTexto {
+    font-style: italic;
+  
+  }
+  
+  .bg-verde {
+    background-color: #3A8337;
+  }
+  
+  .tituloNosotros {
+    font-size: 24px;
+    color:white;
+    font-weight: 500;
+  }
+
+  .carousel .item {
+    color: #999;
+    font-size: 14px !important;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+  }
+
+  .opinion {
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .imgnormalizada img {
+    width: auto;
+    height: 200px;
+    max-height: 200px;
+    border-radius: 35%;
+  }
+
+  div.carousel-indicators .active{
+    background-color: #ffbe33 !important;
+ } 
+
+ .carousel-control-prev-icon {
+
+  background-color: #ffbe33 !important;  
+
+}
+
+.carousel-control-next-icon {
+
+  background-color: #ffbe33 !important; 
+
+}
+
+.about_section {
+  background: #222831;
+  color: #ffffff;
+}
+
+.about_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_section .img-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_section .img-box img {
+  width: 100%;
+  max-width: 445px;
+  position: relative;
+  z-index: 2;
+}
+
+.about_section .detail-box p {
+  margin-top: 15px;
+}
+
+.about_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+}
+
+.about_section .detail-box a:hover {
+  background-color: #e69c00;
+}
